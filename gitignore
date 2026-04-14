@@ -1,0 +1,331 @@
+# 40 Days of JavaScript - .gitignore
+# This file specifies which files and folders should NOT be tracked by Git
+
+# ============================================
+# 📁 IDE & Editor Configuration
+# ============================================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+
+# Visual Studio
+.vs/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Atom
+.atom/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+*~
+.swp
+.swo
+
+# ============================================
+# 📦 Node.js & npm
+# ============================================
+
+# Node modules
+node_modules/
+node_modules/*
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Global npm packages
+dist/
+build/
+
+# ============================================
+# 🐍 Python & Virtual Environments
+# ============================================
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ============================================
+# 🔧 Development & Build Files
+# ============================================
+
+# Compiled files
+*.o
+*.a
+*.so
+*.exe
+*.class
+*.jar
+
+# Build directories
+build/
+dist/
+out/
+*.min.js
+*.min.css
+
+# ============================================
+# 🔒 Sensitive Information
+# ============================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+config/secrets.js
+secrets.json
+
+# API Keys & Tokens
+*.key
+*.pem
+*.p8
+.credentials
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# 📊 Logs & Temporary Files
+# ============================================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# 🌐 Browser & Web
+# ============================================
+
+# Browser cache
+.cache/
+.next/
+out/
+
+# Service Worker
+sw.js
+
+# ============================================
+# 📝 Notes & Documentation (Optional)
+# ============================================
+
+# Uncomment if you want to exclude personal notes from commits
+# notes.md
+# personal-notes/
+
+# ============================================
+# 📱 Mobile & Desktop App Files
+# ============================================
+
+# Electron
+dist/
+dist_electron/
+
+# Cordova
+platforms/
+plugins/
+
+# ============================================
+# 🔄 Version Control & Backup
+# ============================================
+
+# Git
+.git/
+.gitignore
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*~
+
+# ============================================
+# 📦 Package Managers
+# ============================================
+
+# npm
+package-lock.json
+npm-shrinkwrap.json
+
+# Yarn
+yarn.lock
+yarn-error.log
+
+# PNPM
+pnpm-lock.yaml
+
+# Bower
+bower_components/
+
+# ============================================
+# 🖼️ Generated Assets (Optional)
+# ============================================
+
+# Uncomment if you generate assets and don't want to track them
+# screenshots/
+# videos/
+# recordings/
+
+# ============================================
+# 📐 Coverage & Testing
+# ============================================
+
+# Code coverage
+coverage/
+.coverage
+.nyc_output/
+htmlcov/
+
+# Test reports
+junit.xml
+test-results/
+.test-cache/
+
+# ============================================
+# 📚 IDE-Specific Generated Files
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# WebStorm
+.idea/
+out/
+
+# NetBeans
+nbproject/
+.nb-gradle/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# ============================================
+# 🗄️ System Files
+# ============================================
+
+# Thumbs.db (Windows)
+Thumbs.db
+
+# Desktop.ini (Windows)
+desktop.ini
+
+# .DS_Store (macOS)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================================
+# 📦 Package Manager Caches
+# ============================================
+
+# npm cache
+.npm/
+.eslintcache
+
+# Yarn cache
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# pnpm cache
+.pnpm-store/
+
+# ============================================
+# 💾 Database Files
+# ============================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+
+# ============================================
+# 🔐 Secrets & Configuration
+# ============================================
+
+# Environment files
+.env
+.env.local
+.env.test
+.env.production
+
+# Config files with sensitive data
+config.json
+settings.json
+local.properties
+
+# SSH Keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# ============================================
+# ✅ Files to KEEP (Examples)
+# ============================================
+
+# The following patterns are NEGATED (!)
+# This means these files WILL be tracked even if they match patterns above
+
+# Keep environment example files
+!.env.example
+!.env.local.example
+!config.example.json
+
+# Keep important config files
+!tsconfig.json
+!eslintrc.json
+!.prettierrc
+!
